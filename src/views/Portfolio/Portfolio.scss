@@ -42,6 +42,35 @@ $secondary-font-color: #FBF0DF;
       border: 1px solid $primary-font-color;
     }
   }
+
+  .subtitle-home-nav {
+    display: flex;                
+    justify-content: space-around; 
+    align-items: center;           
+    flex-wrap: wrap;              
+    width: 100%;                   
+    padding: 10px;                
+    text-align: center;          
+  
+    Text {
+      font-size: 1.5vw;            
+      margin: 5px 10px;           
+      color: #3E3C36;
+      font-family: 'Arial', sans-serif;
+    }
+    
+    .date-display, .time-display {
+      font-weight: bold;       
+    }
+    
+    .fullstack-text {
+      font-weight: bold; 
+    }
+
+    .email-text{
+        font-weight: bold;
+    }
+  }
   
   
   @media (max-width: 768px) { 
@@ -71,3 +100,5 @@ $secondary-font-color: #FBF0DF;
       }
     }
   }
+
+  
