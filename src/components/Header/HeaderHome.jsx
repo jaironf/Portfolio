@@ -1,11 +1,13 @@
 import React from 'react'
-import { Box } from '@chakra-ui/react'
+import { Box, Divider } from '@chakra-ui/react'
+
 
 
 const HeaderHome = () => {
   return (
-    <Box className='header-home'>HeaderHome
-        <Box className='title-home-nav'>J<i>a</i>ir<i>o</i> Nú<i>ñ</i>ez</Box>
+    <Box className='header-home'>
+        <Box className='title-home-nav'>J<i>a</i>ir<i>o</i> <span className='space-between'>Nú<i>ñ</i>ez</span></Box>
+        <Divider className='divider'/>
         <Box className='btn-home-nav'></Box>
     </Box>
   )

@@ -1,3 +1,73 @@
+$background-primary-color: #B2B2A8;
+$background-secondary-color: #3F3B37;
+$card-1-color: #FBF0DF;
+$card-2-color: #DB4C44;
+$card-3-color: #E7A92D;
+$card-4-color: #3E3C36;
+
+$primary-font-color: #3F3B37;
+$secondary-font-color: #FBF0DF;
+
+
+
+
+
 .body {
-    background-color: #B2B2A8;
+    background-color: $background-primary-color;
+    width: 100%;
+    height: 1000px;
 }
+
+.header-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  
+    .title-home-nav {
+      font-size: 10vw; 
+      color: $primary-font-color;
+      font-family: 'Times New Roman', Times, serif; 
+      width: 90%;
+  
+      .space-between {
+        margin-left: 20vw; 
+      }
+    }
+  
+    .divider {
+      margin-top: -5vh; 
+      width: 90%;
+      border: 1px solid $primary-font-color;
+    }
+  }
+  
+  
+  @media (max-width: 768px) { 
+    .header-home {
+      .title-home-nav {
+        font-size: 12vw; 
+      }
+      .space-between {
+        margin-left: 3vw; 
+      }
+      .divider {
+        margin-top: -2vh;
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-home {
+      .title-home-nav {
+        font-size: 14vw; 
+      }
+      .space-between {
+        margin-left: 1vw; 
+      }
+      .divider {
+        margin-top: -1vh; 
+      }
+    }
+  }

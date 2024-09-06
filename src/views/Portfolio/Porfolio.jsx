@@ -5,7 +5,7 @@ import './Portfolio.scss'
 
 const Porfolio = () => {
   return (
-   <Box className='body'> BODY
+   <Box className='body'>
         <HeaderHome/>
    </Box>
   )
