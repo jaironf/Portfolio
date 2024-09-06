@@ -50,25 +50,14 @@ $secondary-font-color: #FBF0DF;
     flex-wrap: wrap;              
     width: 100%;                   
     padding: 10px;                
-    text-align: center;          
+    text-align: center; 
+    font-family: sans-serif;  
+    color: $primary-font-color;
+    font-weight: bold;      
   
     Text {
       font-size: 1.5vw;            
       margin: 5px 10px;           
-      color: #3E3C36;
-      font-family: 'Arial', sans-serif;
-    }
-    
-    .date-display, .time-display {
-      font-weight: bold;       
-    }
-    
-    .fullstack-text {
-      font-weight: bold; 
-    }
-
-    .email-text{
-        font-weight: bold;
     }
   }
   

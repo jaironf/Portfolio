@@ -24,9 +24,9 @@ const HeaderHome = () => {
         <Divider className='divider'/>
         <Box className='subtitle-home-nav'>
           <Text className='fullstack-text'>FULL-STACK DEVELOPER</Text>
-          <Text className='date-display'>{formattedDated}</Text>
-          <Text className='email-text'>EMAIL</Text>
-          <Text className='time-display'>{formattedTime}</Text>
+          <Text className='date-display'>Date {formattedDated}</Text>
+          <Text className='email-text'>jaironf.94@gmail.com</Text>
+          <Text className='time-display'>MAD {formattedTime}</Text>
         </Box>
     </Box>
   )
