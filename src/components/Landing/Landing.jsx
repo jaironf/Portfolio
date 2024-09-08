@@ -3,7 +3,7 @@ import { Box, Divider, Text } from '@chakra-ui/react'
 
 
 const Landing = () => {
-  const translations = ['HOLA', 'HELLO', 'BONJOUR', 'CIAO', 'HALLO', 'OLÁ', 'नमस्ते', 'こんにちは']
+  const translations = ['HOLA', 'KAIXO', 'HELLO', 'BONJOUR', 'CIAO', 'HALLO', 'OLÁ', 'नमस्ते', 'こんにちは', 'Привет', '你好']
 
   const [ currentLanguageIndex, setCurrentLanguageIndex ] = useState(0)
 
