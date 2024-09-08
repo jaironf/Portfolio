@@ -119,7 +119,7 @@ $secondary-font-color: #FBF0DF;
 }
 
 .logo {
-  font-size: 90px;
+  font-size: 100px;
   font-weight: bold;
   font-family: sans-serif;
   gap: 20px;
@@ -182,7 +182,7 @@ $secondary-font-color: #FBF0DF;
 
 @media (max-width: 480px) {
   .logo {
-    font-size: 30px;
+    display: none;
   }
 
   .card-about, .projects-card {

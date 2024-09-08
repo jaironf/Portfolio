@@ -9,7 +9,11 @@ const Landing = () => {
             <Box className='card-about'>About ①</Box>
             <Text className='logo'>Spain</Text> 
             <Box className='projects-card'>Projects ②</Box>
-        <Divider className='divider'/>
+          <Divider className='divider'/>
+        </Box>
+        <Box className='landing-box2'>
+          <Text className='tex-fullstack'>FullStack</Text>
+          <Text className='text-developer'>Developer</Text>
         </Box>
     </Box>
   )
