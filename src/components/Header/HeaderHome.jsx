@@ -25,7 +25,6 @@ const HeaderHome = () => {
         <Box className='subtitle-home-nav'>
           <Text className='fullstack-text'>FULL-STACK DEVELOPER</Text>
           <Text className='date-display'>Date {formattedDated}</Text>
-          <Text className='email-text'>jaironf.94@gmail.com</Text>
           <Text className='time-display'>MAD {formattedTime}</Text>
         </Box>
     </Box>

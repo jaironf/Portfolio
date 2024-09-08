@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Text } from '@chakra-ui/react'
+import { Box, Divider, Text } from '@chakra-ui/react'
 
 
 const Landing = () => {
@@ -9,6 +9,7 @@ const Landing = () => {
             <Box className='card-about'>About ①</Box>
             <Text className='logo'>Spain</Text> 
             <Box className='projects-card'>Projects ②</Box>
+        <Divider className='divider'/>
         </Box>
     </Box>
   )
