@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Box, Divider, Text } from '@chakra-ui/react'
 
 
 const Landing = () => {
+  const translations = ['HOLA', 'HELLO', 'BONJOUR', 'CIAO', 'HALLO', 'OLÁ', 'नमस्ते', 'こんにちは']
+
+  const [ currentLanguageIndex, setCurrentLanguageIndex ] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentLanguageIndex((prevIndex) => (prevIndex + 1) % translations.length)
+    }, 3000)
+
+    return () => clearInterval(interval)
+  }, [translations.length])
+
   return (
     <Box className='landing-continer'>
         <Box className='landing-box1'>
             <Box className='card-about'>About ①</Box>
-            <Text className='logo'>Spain</Text> 
+            <Text className='logo'>{translations[currentLanguageIndex]}</Text> 
             <Box className='projects-card'>Projects ②</Box>
           <Divider className='divider'/>
         </Box>
