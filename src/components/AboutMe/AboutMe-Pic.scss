@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;   
     justify-content: flex-start;  
-    width: 100%;
+    width: 90%;
     padding: 20px;  
-  
+    
     @media (max-width: 768px) {
       flex-direction: column;  
       align-items: center;  
@@ -17,7 +17,7 @@
     filter: drop-shadow(0 0 10px #3F3B37);
     mask-image: linear-gradient(#3F3B37 30%, transparent);
     
-    Image {
+    Image { 
       width: 100%;
       height: auto;
       display: block;
@@ -31,12 +31,16 @@
   
   .description-container {
     display: flex;
-    align-items:flex-start;  
-    justify-content:flex-start;  
+    flex-direction: column; 
+    align-items: flex-start;  
+    justify-content: flex-start;  
     flex: 1;  
-  
+    padding-left: 20px; 
+    
     @media (max-width: 768px) {
-      justify-content: center;  
+      align-items: center;  
+      text-align: center;  
+      padding-left: 0; 
     }
   }
   
@@ -46,9 +50,10 @@
     color: #3F3B37;
     text-align: left; 
     font-family: sans-serif;
+    margin-bottom: 15px; 
   
     @media (max-width: 768px) {
-      text-align: center; 
       font-size: 18px;  
     }
   }
+  
