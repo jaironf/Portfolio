@@ -1,0 +1,54 @@
+.pic-container {
+    display: flex;
+    align-items: center;   
+    justify-content: flex-start;  
+    width: 100%;
+    padding: 20px;  
+  
+    @media (max-width: 768px) {
+      flex-direction: column;  
+      align-items: center;  
+    }
+  }
+  
+  .profile-pic {
+    width: 30vw;
+    margin-right: 120px;
+    filter: drop-shadow(0 0 10px #3F3B37);
+    mask-image: linear-gradient(#3F3B37 30%, transparent);
+    
+    Image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    @media (max-width: 768px) {
+      width: 150px; 
+      margin-right: 0;  
+    }
+  }
+  
+  .description-container {
+    display: flex;
+    align-items:flex-start;  
+    justify-content:flex-start;  
+    flex: 1;  
+  
+    @media (max-width: 768px) {
+      justify-content: center;  
+    }
+  }
+  
+  .description {
+    font-size: 25px; 
+    font-weight: bold;
+    color: #3F3B37;
+    text-align: left; 
+    font-family: sans-serif;
+  
+    @media (max-width: 768px) {
+      text-align: center; 
+      font-size: 18px;  
+    }
+  }
