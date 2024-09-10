@@ -161,7 +161,7 @@ $secondary-font-color: #FBF0DF;
 
 
 //ABOUT ME
-.aboutme-continer {
+.aboutme-container {
   margin-top: 10vw;
   display: flex;
   justify-content: center;
@@ -193,7 +193,7 @@ $secondary-font-color: #FBF0DF;
 
   //MEDIA 
   @media (max-width: 768px) { 
-    .header-home, .aboutme-continer {
+    .header-home, .aboutme-container {
       .title-home-nav, .title-about-nav {
         font-size: 12vw; 
       }
@@ -207,7 +207,7 @@ $secondary-font-color: #FBF0DF;
   }
   
   @media (max-width: 480px) {
-    .header-home, .aboutme-continer {
+    .header-home, .aboutme-container {
       .title-home-nav, .title-about-nav {
         font-size: 14vw; 
       }

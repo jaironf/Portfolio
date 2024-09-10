@@ -16,7 +16,7 @@ const AboutMe = () => {
 
 
   return (
-    <Box className='aboutme-continer'>
+    <Box className='aboutme-container'>
         <Box className='title-about-nav'>
             <Text><i>A</i>bo<i>u</i>t <span className='space-between'><i>M</i>e</span></Text>
             <Divider className='divider'/>
@@ -26,7 +26,7 @@ const AboutMe = () => {
                 <Image src='src/assets/Profile-pic.png' alt='profile-pic'/>
             </Box>
             <Box className='description-container'>
-              <Text className='description'>{isEnglish ? textInEnglish: textInSpanish}</Text>
+              <Text className='description'>{isEnglish ? textInEnglish : textInSpanish}</Text>
 
               <Button className='language-toggle-btn' colorScheme='yellow' onClick={toggleLanguage}>{isEnglish ? 'Cambiar a Español' : 'Switch to English' }</Button>
             </Box>
