@@ -9,7 +9,7 @@ const Projects = () => {
             <Divider className='divider-body'/> 
         </Box>
         <Box className='projects-box'>
-            <Text className='projects-title'>Projects</Text>
+            <Text className='projects-title'><i>P</i>ro<i>j</i>ec<i>t</i>s</Text>
             <Divider className='divider-body'/> 
         </Box>
     </Box>
