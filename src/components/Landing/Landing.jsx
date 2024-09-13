@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Box, Divider, Text } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 
 
 const Landing = () => {
@@ -15,12 +16,16 @@ const Landing = () => {
     return () => clearInterval(interval)
   }, [translations.length])
 
+
   return (
     <Box className='landing-continer'>
         <Box className='landing-box1'>
+          <Link to='/AboutMe'>
             <Box className='card-about'>About <span className='space-between'>①</span></Box>
+            </Link>
             <Text className='hello'>{translations[currentLanguageIndex]}</Text> 
-            <Box className='projects-card'>Projects <span className='space-between'>②</span></Box>
+            <Link to='/Projects'>
+            <Box className='projects-card'>Projects <span className='space-between'>②</span></Box></Link>
           <Divider className='divider-body'/>
         </Box>
         <Box className='landing-box2'>
