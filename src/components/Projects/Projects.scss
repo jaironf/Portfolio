@@ -6,7 +6,6 @@
     flex-direction: column;
     width: 100%;
     font-family: sans-serif; 
-   
   
     .selected-box {
         font-size: 10vw; 
@@ -29,7 +28,24 @@
     .divider-body {
       width: 100%;                  
       margin: -25px;  
-    //   margin-top: -20px;                   
+    //   margin-top: -20px; 
+    margin-bottom: 20px;                  
       border: 1px solid #3F3B37;
     }
+  }
+
+  .project-cards {
+    width: 100%;
+    height: auto;
+    margin-left: 7vw;
+    // margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: sans-serif;
+    font-size: 2vw;
+  }
+
+  span {
+    margin-left: 25vw;
   }
