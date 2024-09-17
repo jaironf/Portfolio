@@ -1,0 +1,55 @@
+.contact-container {
+    margin-top: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    .title-contact-nav {
+        font-size: 10vw;
+        color: #3F3B37;
+        font-family: sans-serif;
+        width: 90%;
+        margin-left: 45px;
+    }
+
+    .divider {
+        margin-top: -5vh;
+        width: 97%;
+        border: 1px solid #3F3B37;
+    }
+}
+
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;    
+    white-space: nowrap;  
+  }
+  
+  .email-carousel {
+    display: inline-block;
+    transform: translateX(100%); 
+    transition: transform 0.5s ease; 
+  }
+  
+  .git-card:hover .email-carousel {
+    animation: slide-left 5s linear infinite; 
+  }
+  
+  @keyframes slide-left {
+    0% {
+      transform: translateX(100%);    
+    }
+    50% {
+      transform: translateX(-101%);   
+    }
+    100% {
+      transform: translateX(-101%); 
+    }
+    0%{
+        transform: translateX(100%);
+    }
+
+  }

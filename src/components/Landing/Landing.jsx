@@ -34,7 +34,8 @@ const Landing = () => {
         </Box>
         <Box className='landing-box3'>
           <Text className='based-text'>Based</Text>
-          <Box className='card-contact'>Contact <span className='space-between'>③</span></Box>
+          <Link to='/Contact'>
+          <Box className='card-contact'>Contact <span className='space-between'>③</span></Box></Link>
           <Text className='based-text'>in Valencia</Text>
           <Divider className='divider-body'/>
         </Box>
