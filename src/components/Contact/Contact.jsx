@@ -13,18 +13,18 @@ const Contact = () => {
             <Box className='contact-body'>
                 <Grid className='contact-zone' w='1250px' h='1000px' bg='#3F3B37' mt='40px' borderRadius='10px' display='flex'>
 
-                <a href='mailto:jaironf.94@gmail.com' style={{ color: '#FBF0DF' }}>
-                    <Grid className='email-card' w='400px' h='500px' border='1px solid #FBF0DF' borderRadius='0 0 20px 0' mt='30px' ml='30px'>
-                        <Text ml='10px' mt='10px' display='flex' color='#FBF0DF'>Gmail</Text>
+                    <a href='mailto:jaironf.94@gmail.com' style={{ color: '#FBF0DF' }}>
+                        <Grid className='email-card' w='400px' h='500px' border='1px solid #FBF0DF' borderRadius='0 0 20px 0' mt='30px' ml='30px'>
+                            <Text ml='10px' mt='10px' display='flex' color='#FBF0DF'>Gmail</Text>
 
-                        <Box className='carousel-container' overflow='hidden' w='100%' h='100%' display='flex' justifyContent='center' alignItems='center'>
+                            <Box className='carousel-container' overflow='hidden' w='100%' h='100%' display='flex' justifyContent='center' alignItems='center'>
 
-                            <Text className='email-carousel' fontSize='150px' display='flex' justifyContent='center' alignItems='center' color='#FBF0DF' fontFamily='sans-serif'>Email </Text>
+                                <Text className='email-carousel' fontSize='150px' display='flex' justifyContent='center' alignItems='center' color='#FBF0DF' fontFamily='sans-serif'>Email </Text>
 
-                        </Box>
+                            </Box>
 
-                        <Text ml='10px' mb='20px' display='flex' justifyContent='initial' alignItems='end' fontSize='20px' color='#FBF0DF'>jaironf.94@gmail.com</Text>
-                    </Grid>
+                            <Text ml='10px' mb='20px' display='flex' justifyContent='initial' alignItems='end' fontSize='20px' color='#FBF0DF'>jaironf.94@gmail.com</Text>
+                        </Grid>
                     </a>
 
                     <a href='https://github.com/jaironf' target='_blank' rel='noopener noreferrer'>
