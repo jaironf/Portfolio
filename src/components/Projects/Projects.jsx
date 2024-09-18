@@ -80,7 +80,7 @@ const Projects = () => {
               </Text>
               <Box className='description-body' maxW='80%' mt='5vw'> 
                 <Text fontSize='15px' fontFamily='sans-serif'>
-                Este es mi portfolio personal, desarrollado utilizando React como framework principal. Para la creación de componentes, he integrado Chakra UI, lo que me ha permitido construir una interfaz limpia, accesible y altamente personalizable. Además, he utilizado SASS para aplicar estilos de manera eficiente, gestionando mejor la modularidad y personalización del diseño. En este portfolio, muestro mis proyectos más destacados y habilidades técnicas, brindando una experiencia visual y de navegación optimizada para los visitantes.
+                Este es mi portfolio personal, desarrollado utilizando React como framework principal. Para la creación de componentes, he integrado Chakra UI, lo que me ha permitido construir una interfaz limpia, accesible y altamente personalizable. Además, he utilizado SCSS para aplicar estilos de manera eficiente, gestionando mejor la modularidad y personalización del diseño. En este portfolio, muestro mis proyectos más destacados y habilidades técnicas, brindando una experiencia visual y de navegación optimizada para los visitantes.
                 </Text>
               </Box>
               <a href='https://github.com/jaironf/Portfolio' target='_blank' rel='noopener'>
