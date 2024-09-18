@@ -54,11 +54,40 @@ const Projects = () => {
 
 
       <Box className='project-cards'>
-        <Grid h='500px' w='770px' templateRows='repeat (3, 1fr)'>
-          <GridItem className='grid-item' bg='#DB4C44' color={'#FBF0DF'} borderRadius='0 0 50px 0'>PROJECT <span>03</span></GridItem>
+        <Grid h='500px' w='770px' templateRows='repeat (1, 1fr)' templateColumns='repeat(6, 1fr)' gap={0}>
+          <GridItem className='grid-item' rowSpan={2} colSpan={6} bg='#DB4C44' color={'#FBF0DF'} borderRadius='0 0 50px 0' display='flex' flexDirection='column' alignItems='center'>
+            <Text fontSize='xxl' mt='20px'>
+              Social Network TukTuk <span>03</span>
+            </Text>
+            <Box className='description-body' maxW='80%' mt='5vw'>
+              <Text fontSize='15px' fontFamily='sans-serif'>
+              En este proyecto, que he desarrollado en colaboración con mi compañero Manuel Dana, hemos creado una red social utilizando React y Redux. La aplicación permite a los usuarios registrarse, iniciar sesión, crear publicaciones, comentar, dar likes, y más. Utilizamos React Router para la navegación y múltiples componentes que gestionan las distintas funcionalidades de la red social. Los usuarios pueden interactuar entre sí a través de publicaciones, comentarios y likes, y cada usuario tiene un perfil donde puede ver sus datos y sus publicaciones.
+              </Text>
+            </Box>
+            <a href='https://github.com/manudana11/frontend-tuktuk' target='_blank' rel='noopener'>
+              <Image src='src/assets/GitHub-Logo.png' w='7vw' mt='3vw' transition='transform 0.3s ease, filter 0.3s ease' suave
+                _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #FBF0DF)', }} />
+            </a>
+          </GridItem>
         </Grid>
-        <Grid h='500px' w='600px' templateRows='repeat (3, 1fr)'>
-          <GridItem className='grid-item' rowSpan={2} bg='#FBF0DF' borderRadius='0 0 50px 0'><Text className='text-projects'>PROJECT <span>04</span></Text></GridItem>
+
+
+        <Grid h='500px' w='600px' templateRows='repeat (1, 1fr)'
+        templateColumns='repeat(6, 1fr)' gap={0}>
+          <GridItem className='grid-item' rowSpan={2} colSpan={6} bg='#FBF0DF' color='#3F3B37' borderRadius='0 0 50px 0' display='flex' flexDirection='column' alignItems='center' p={4}>
+            <Text className='text-projects' fontSize='xxl'>
+              Portfolio <span>04</span>
+              </Text>
+              <Box className='description-body' maxW='80%' mt='5vw'> 
+                <Text fontSize='15px' fontFamily='sans-serif'>
+                Este es mi portfolio personal, desarrollado utilizando React como framework principal. Para la creación de componentes, he integrado Chakra UI, lo que me ha permitido construir una interfaz limpia, accesible y altamente personalizable. Además, he utilizado SASS para aplicar estilos de manera eficiente, gestionando mejor la modularidad y personalización del diseño. En este portfolio, muestro mis proyectos más destacados y habilidades técnicas, brindando una experiencia visual y de navegación optimizada para los visitantes.
+                </Text>
+              </Box>
+              <a href='https://github.com/jaironf/Portfolio' target='_blank' rel='noopener'>
+              <Image src='src/assets/GitHub-Logo.png' w='7vw' mt='3vw' transition='transform 0.3s ease, filter 0.3s ease' suave
+                _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #DB4C44)', }} />
+            </a>
+            </GridItem>
         </Grid>
       </Box>
     </Box>
