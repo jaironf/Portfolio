@@ -1,6 +1,8 @@
 import React from 'react'
-import { Box, Divider, Grid, GridItem, Text } from '@chakra-ui/react'
+import { Box, Button, Divider, Grid, GridItem, Link, Text } from '@chakra-ui/react'
 import './Projects.scss'
+import projects from '../../Data/Data'
+
 
 
 const Projects = () => {
@@ -18,6 +20,7 @@ const Projects = () => {
           <Grid h='500px' w='500px' templateRows='repeat (3, 1fr)' templateColumns='(6, 1fr)' gap={0}>
             <GridItem className='grid-item' rowSpan={2} colSpan={2} bg='#3E3C36' color={'#FBF0DF'} borderRadius='0 0 50px 0'>PROJECT <span>01</span></GridItem>
           </Grid>
+
           <Grid h='500px' w='500px' templateRows='repeat (3, 1fr)'>
             <GridItem className='grid-item' rowSpan={2} bg='#E7A92D' borderRadius='0 0 50px 0'>PROJECT <span>02</span></GridItem>
           </Grid>
