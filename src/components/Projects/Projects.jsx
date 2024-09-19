@@ -28,7 +28,7 @@ const Projects = () => {
               </Text>
             </Box>
             <a href='https://github.com/jaironf/Pagina-Web' target='_blank' rel='noopener'>
-              <Image src='src/assets/GitHub-Logo.png' w='7vw' mt='3vw' transition='transform 0.3s ease, filter 0.3s ease'
+              <Image src='https://imgur.com/vtmBHoO' w='7vw' mt='3vw' transition='transform 0.3s ease, filter 0.3s ease'
                 _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #E7A92D)', }} />
             </a>
           </GridItem>
