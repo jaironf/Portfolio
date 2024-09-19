@@ -22,8 +22,7 @@ const AboutMe = () => {
         </Box>
         <Box className='pic-container'>
             <Box className='profile-pic'>
-                {/* <Image src='' alt='profile-pic'/> */}
-                <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+                <Image src='https://imgur.com/RXkgLCI' alt='profile-pic'/>
             </Box>
             <Box className='description-container'>
               <Text className='description'>{isEnglish ? textInEnglish : textInSpanish}</Text>
