@@ -16,7 +16,7 @@ const AboutMe = () => {
 
 
   return (
-    <Box className='aboutme-container'>
+    <Box className='aboutme-container' id='AboutMe'>
         <Box className='title-about-nav'>
             <Text><i>A</i>bo<i>u</i>t <span className='space-between'><i>M</i>e</span></Text>
             <Divider className='divider'/>

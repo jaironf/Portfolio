@@ -5,7 +5,7 @@ import './Contact.scss'
 
 const Contact = () => {
     return (
-        <Box className='contact-container'>
+        <Box className='contact-container' id='Contact'>
             <Box className='title-contact-nav'>
                 <Text><i>C</i>on<i>t</i>act</Text>
                 <Divider className='divider' />

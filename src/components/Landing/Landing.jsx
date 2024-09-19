@@ -20,9 +20,13 @@ const Landing = () => {
   return (
     <Box className='landing-continer'>
         <Box className='landing-box1'>
+          <a href='#AboutMe'>
             <Box className='card-about'>About <span className='space-between'>①</span></Box>
+            </a>
             <Text className='hello'>{translations[currentLanguageIndex]}</Text> 
+            <a href='#Projects'>
             <Box className='projects-card'>Projects <span className='space-between'>②</span></Box>
+            </a>
           <Divider className='divider-body'/>
         </Box>
         <Box className='landing-box2'>
@@ -31,7 +35,9 @@ const Landing = () => {
         </Box>
         <Box className='landing-box3'>
           <Text className='based-text'>Based</Text>
+          <a href='#Contact'>
           <Box className='card-contact'>Contact <span className='space-between'>③</span></Box>
+          </a>
           <Text className='based-text'>in Valencia</Text>
           <Divider className='divider-body'/>
         </Box>
