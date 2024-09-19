@@ -23,7 +23,7 @@ const AboutMe = () => {
         <Box className='pic-container'>
             <Box className='profile-pic'>
                 {/* <Image src='' alt='profile-pic'/> */}
-                <blockquote class="imgur-embed-pub" lang="en" data-id="RXkgLCI"><a href="https://imgur.com/RXkgLCI">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+                <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
             </Box>
             <Box className='description-container'>
               <Text className='description'>{isEnglish ? textInEnglish : textInSpanish}</Text>
