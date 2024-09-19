@@ -23,7 +23,7 @@ const AboutMe = () => {
         </Box>
         <Box className='pic-container'>
             <Box className='profile-pic'>
-                <Image src='src/assets/Profile-pic.png' alt='profile-pic'/>
+                <Image src='/Users/jaironf/Desktop/Portfolio-Jairo/src/assets/Profile-pic.png' alt='profile-pic'/>
             </Box>
             <Box className='description-container'>
               <Text className='description'>{isEnglish ? textInEnglish : textInSpanish}</Text>
