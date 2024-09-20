@@ -62,7 +62,7 @@ const Projects = () => {
               </Text>
             </Box>
             <a href='https://github.com/manudana11/frontend-tuktuk' target='_blank' rel='noopener'>
-            <Button className='github-btn' bg='#FBF0DF' color='#DB4C44' variant='outline' mt='3vw' _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #FBF0DF)', }}> GitHub</Button>
+            <Button className='github-btn' bg='#FBF0DF' color='#DB4C44' variant='outline' mt='3vw' border='1px solid #3E3C36' _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #FBF0DF)', }}> GitHub</Button>
             </a>
           </GridItem>
         </Grid>
@@ -80,7 +80,7 @@ const Projects = () => {
                 </Text>
               </Box>
               <a href='https://github.com/jaironf/Portfolio' target='_blank' rel='noopener'>
-              <Button className='github-btn' bg='#DB4C44' color='#FBF0DF' variant='outline' mt='3vw' _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #DB4C44)', }}> GitHub</Button>
+              <Button className='github-btn' bg='#DB4C44' color='#FBF0DF' variant='outline' mt='3vw' border='1px solid #3E3C36' _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #DB4C44)', }}> GitHub</Button>
             </a>
             </GridItem>
         </Grid>
