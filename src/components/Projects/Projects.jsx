@@ -1,7 +1,6 @@
 import React from 'react'
-import { Box, Divider, Grid, GridItem, Image, Text } from '@chakra-ui/react'
+import { Box, Button, Divider, Grid, GridItem, Image, Text } from '@chakra-ui/react'
 import './Projects.scss'
-import gitHubLogo from '/Users/jaironf/Desktop/Portfolio-Jairo/src/assets/GitHub-Logo.png'
 
 
 const Projects = () => {
@@ -28,8 +27,7 @@ const Projects = () => {
               </Text>
             </Box>
             <a href='https://github.com/jaironf/Pagina-Web' target='_blank' rel='noopener'>
-              <Image src={gitHubLogo} w='7vw' mt='3vw' transition='transform 0.3s ease, filter 0.3s ease'
-                _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #E7A92D)', }} />
+              <Button className='github-btn' bg='#E7A92D' variant='outline' mt='3vw' _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #E7A92D)', }}> GitHub</Button>
             </a>
           </GridItem>
         </Grid>
@@ -45,8 +43,7 @@ const Projects = () => {
               </Text>
             </Box>
             <a href='https://github.com/jaironf/E-commerceReact' target='_blank' rel='noopener'>
-              <Image src={gitHubLogo} w='7vw' mt='2vw' transition='transform 0.3s ease, filter 0.3s ease'
-                _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #3E3C36)', }} />
+            <Button className='github-btn' bg='#3E3C36' color='#E7A92D' variant='outline' mt='3vw' _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #3E3C36)', }}> GitHub</Button>
             </a>
           </GridItem>
         </Grid>
@@ -65,8 +62,7 @@ const Projects = () => {
               </Text>
             </Box>
             <a href='https://github.com/manudana11/frontend-tuktuk' target='_blank' rel='noopener'>
-              <Image src={gitHubLogo} w='7vw' mt='3vw' transition='transform 0.3s ease, filter 0.3s ease'
-                _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #FBF0DF)', }} />
+            <Button className='github-btn' bg='#FBF0DF' color='#DB4C44' variant='outline' mt='3vw' _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #FBF0DF)', }}> GitHub</Button>
             </a>
           </GridItem>
         </Grid>
@@ -84,8 +80,7 @@ const Projects = () => {
                 </Text>
               </Box>
               <a href='https://github.com/jaironf/Portfolio' target='_blank' rel='noopener'>
-              <Image src={gitHubLogo} w='7vw' mt='3vw' transition='transform 0.3s ease, filter 0.3s ease'
-                _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #DB4C44)', }} />
+              <Button className='github-btn' bg='#DB4C44' color='#FBF0DF' variant='outline' mt='3vw' _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #DB4C44)', }}> GitHub</Button>
             </a>
             </GridItem>
         </Grid>
