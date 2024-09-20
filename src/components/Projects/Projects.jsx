@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Divider, Grid, GridItem, Image, Text } from '@chakra-ui/react'
+import { Box, Button, Divider, Grid, GridItem, Text } from '@chakra-ui/react'
 import './Projects.scss'
 
 
