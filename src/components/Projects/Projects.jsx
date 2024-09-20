@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Divider, Grid, GridItem, Image, Text } from '@chakra-ui/react'
 import './Projects.scss'
-import gitHubLogo from 'src/assets/GitHub-Logo.png'
+import gitHubLogo from '/Users/jaironf/Desktop/Portfolio-Jairo/src/assets/GitHub-Logo.png'
 
 
 const Projects = () => {
