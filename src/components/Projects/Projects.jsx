@@ -14,6 +14,7 @@ const Projects = () => {
         <Text className='projects-title'><i>P</i>ro<i>j</i>ec<i>t</i>s</Text>
         <Divider className='divider-body' />
       </Box>
+
       <Box className='project-cards' flexWrap='wrap' justifyContent='flex-start'>
 
         <Grid h='500px' w='500px' templateRows='repeat(1, 1fr)' templateColumns='repeat(6, 1fr)' gap={0}>
