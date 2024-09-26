@@ -14,11 +14,11 @@ const Projects = () => {
         <Text className='projects-title'><i>P</i>ro<i>j</i>ec<i>t</i>s</Text>
         <Divider className='divider-body' />
       </Box>
-      <Box className='project-cards'>
+      <Box className='project-cards' flexWrap='wrap' justifyContent='flex-start'>
 
         <Grid h='500px' w='500px' templateRows='repeat(1, 1fr)' templateColumns='repeat(6, 1fr)' gap={0}>
           <GridItem className='grid-item' rowSpan={2} colSpan={6} bg='#3E3C36' color='#FBF0DF' borderRadius='0 0 50px 0' display='flex' flexDirection='column' alignItems='center' p={4}>
-            <Text fontSize='xxl'>
+            <Text  className='text-projects' fontSize='xxl'>
               Oddliquor Website <span>01</span>
             </Text>
             <Box className='description-body' maxW='80%' mt='5vw'>
@@ -34,7 +34,7 @@ const Projects = () => {
 
         <Grid h='500px' w='500px' templateRows='repeat (1, 1fr)' templateColumns='repeat(6, 1fr)' gap={0}>
           <GridItem className='grid-item' rowSpan={2} colSpan={6} bg='#E7A92D' color='#3F3B37' borderRadius='0 0 50px 0' display='flex' flexDirection='column' alignItems='center' p={4}>
-            <Text fontSize='xxl'>
+            <Text  className='text-projects' fontSize='xxl'>
               E-Commerce <span>02</span>
             </Text>
             <Box className='description-body' maxW='80%' mt='5vw'>
@@ -50,10 +50,10 @@ const Projects = () => {
       </Box>
 
 
-      <Box className='project-cards'>
+      <Box className='project-cards' flexWrap='wrap' justifyContent='flex-start'>
         <Grid h='500px' w='770px' templateRows='repeat (1, 1fr)' templateColumns='repeat(6, 1fr)' gap={0}>
           <GridItem className='grid-item' rowSpan={2} colSpan={6} bg='#DB4C44' color={'#FBF0DF'} borderRadius='0 0 50px 0' display='flex' flexDirection='column' alignItems='center'>
-            <Text fontSize='xxl' mt='20px'>
+            <Text  className='text-projects' fontSize='xxl' mt='20px'>
               Social Network TukTuk <span>03</span>
             </Text>
             <Box className='description-body' maxW='80%' mt='5vw'>
@@ -70,8 +70,8 @@ const Projects = () => {
 
         <Grid h='500px' w='600px' templateRows='repeat (1, 1fr)'
         templateColumns='repeat(6, 1fr)' gap={0}>
-          <GridItem className='grid-item' rowSpan={2} colSpan={6} bg='#FBF0DF' color='#3F3B37' borderRadius='0 0 50px 0' display='flex' flexDirection='column' alignItems='center' p={4}>
-            <Text className='text-projects' fontSize='xxl'>
+          <GridItem className='grid-item4' rowSpan={2} colSpan={6} bg='#FBF0DF' color='#3F3B37' borderRadius='0 0 50px 0' display='flex' flexDirection='column' alignItems='center'>
+            <Text className='text-projects' fontSize='xxl' mt='20px'>
               Portfolio <span>04</span>
               </Text>
               <Box className='description-body' maxW='80%' mt='5vw'> 

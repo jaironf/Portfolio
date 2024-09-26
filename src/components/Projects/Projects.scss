@@ -38,13 +38,34 @@
     width: 100%;
     height: auto;
     margin-left: 7vw;
-    // margin-top: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     font-family: sans-serif;
     font-size: 2vw;
+  
+    // Ajustes para pantallas móviles
+    @media (max-width: 768px) {
+      margin-left: 10vw;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      .grid-item {
+        width: 90vw;
+        // margin-bottom: 10px; // Espacio entre las cards
+      }
 
+      .grid-item4 {
+        margin-left: -19.6vw;
+        width: 90vw;
+      }
+
+    .text-projects {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    }
   }
 
 
