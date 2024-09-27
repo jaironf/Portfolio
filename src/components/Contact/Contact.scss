@@ -71,3 +71,61 @@
       border-color: #3F3B37;
     }
   }
+
+
+@media screen and (max-width: 768px) {
+    .contact-body {
+      .contact-zone {
+        width: 90vw;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #B2B2A8;
+      }
+  
+      .email-card,
+      .git-card,
+      .linkedin-card {
+        width: 30vw;
+        height: auto;
+        margin: 20px 0;
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+        background-color: #3F3B37;
+        border-radius: 10px;
+      }
+
+      .linkedin-card {
+        margin: 20px auto; /* Centrar horizontalmente */
+      }
+  
+      .email-carousel,
+      .git-carousel,
+      .linkedin-carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(0);
+        transition: none; 
+        font-size: 5vw;
+      }
+
+      .bottom-text, .above-text {
+        display: none;
+      }
+  
+      Text {
+        font-size: 16px;
+      }
+      .btn-top {
+        display: none;
+      }
+    }
+
+    .divider, .btn-top {
+        display: none;
+    }
+   
+  }

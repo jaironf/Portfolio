@@ -30,7 +30,7 @@ const HeaderHome = () => {
   return (
     <Box className='header-home'>
         <Box className='title-home-nav'>J<i>a</i>ir<i>o</i> <span className='space-between'>Nú<i>ñ</i>ez</span></Box>
-        <Divider className='divider'/>
+        <Divider className='divider-header'/>
         <Box className='subtitle-home-nav'>
           <Text className='fullstack-text'>FULL-STACK DEVELOPER</Text>
           <Text className='date-display'>Date {formattedDated}</Text>

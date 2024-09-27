@@ -39,7 +39,7 @@ $secondary-font-color: #FBF0DF;
     }
   }
 
-  .divider {
+  .divider-header {
     margin-top: -5vh;
     width: 90%;
     border: 1px solid $primary-font-color;
@@ -215,7 +215,7 @@ $secondary-font-color: #FBF0DF;
       margin-left: 3vw;
     }
 
-    .divider {
+    .divider, .divider-header {
       margin-top: -2vh;
     }
   }
@@ -275,7 +275,7 @@ $secondary-font-color: #FBF0DF;
 
 @media (max-width: 480px) {
 
-  .hello,
+  // .hello,
   .text-fullstack,
   .based-text,
   .divider-body {
