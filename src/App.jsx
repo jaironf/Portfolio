@@ -13,17 +13,16 @@ import Contact from './components/Contact/Contact'
 
 function App() {
   return (
-    // <BrowserRouter>
-    //     <Routes>
-    //       <Route path='/' element={<Porfolio />}/>
-    //       <Route path='/HeaderHome' element={<HeaderHome />}/>
-    //       <Route path='/Landing' element={<Landing />} />
-    //       <Route path='/AboutMe' element={<AboutMe />} />
-    //       <Route path='/Projects' element={<Projects />} />
-    //       <Route path='/Contact' element={<Contact />} />
-    //     </Routes>
-    // </BrowserRouter>
-    <Porfolio/>
+    <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Porfolio />}/>
+          <Route path='/HeaderHome' element={<HeaderHome />}/>
+          <Route path='/Landing' element={<Landing />} />
+          <Route path='/AboutMe' element={<AboutMe />} />
+          <Route path='/Projects' element={<Projects />} />
+          <Route path='/Contact' element={<Contact />} />
+        </Routes>
+    </BrowserRouter>
   )
 }
 
