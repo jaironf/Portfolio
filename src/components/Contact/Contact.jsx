@@ -12,7 +12,7 @@ const Contact = () => {
             </Box>
             <Box className='contact-body'>
                 <Grid className='contact-zone' w='1250px' h='1000px' bg='#3F3B37' mt='40px' borderRadius='10px' display='flex'>
-
+        
                     <Grid className='email-card' w='400px' h='500px' border='1px solid #FBF0DF' borderRadius='0 0 20px 0' mt='30px' ml='30px'>
                         <Text ml='10px' mt='10px' display='flex' color='#FBF0DF'>Gmail</Text>
 
@@ -40,7 +40,6 @@ const Contact = () => {
                         <Text ml='10px' mb='20px' display='flex' justifyContent='initial' alignItems='end' fontSize='20px' color='#FBF0DF'>@jaironf</Text>
                     </Grid>
 
-
                 </Grid>
 
                 <Grid className='linkedin-card' w='700px' h='400px' border='1px solid #FBF0DF' borderRadius='0 0 20px 0' mt='-32vw' ml='2vw'>
@@ -61,8 +60,9 @@ const Contact = () => {
                     </Button>
                 </Box>
             </Box>
-        </Box>
+         </Box>
     )
 }
+
 
 export default Contact
