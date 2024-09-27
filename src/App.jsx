@@ -7,7 +7,7 @@ import Landing from './components/Landing/Landing'
 import AboutMe from './components/AboutMe/AboutMe'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
-
+import { Analytics } from "@vercel/analytics/react"
 
 
 
@@ -21,6 +21,7 @@ function App() {
           <Route path='/AboutMe' element={<AboutMe />} />
           <Route path='/Projects' element={<Projects />} />
           <Route path='/Contact' element={<Contact />} />
+          <Analytics/>
         </Routes>
     </BrowserRouter>
   )
