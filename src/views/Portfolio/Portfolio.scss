@@ -156,6 +156,10 @@ $secondary-font-color: #FBF0DF;
   min-width: 200px;
 }
 
+.hello-mobil {
+  display: none;
+}
+
 .text-fullstack,
 .based-text {
   font-family: sans-serif;
@@ -219,10 +223,13 @@ $secondary-font-color: #FBF0DF;
       margin-left: 3vw;
     }
 
-    .divider, .divider-header {
+    .divider,
+    .divider-header {
       margin-top: -2vh;
     }
-    .date-display, .time-display {
+
+    .date-display,
+    .time-display {
       display: none;
     }
   }
@@ -260,8 +267,8 @@ $secondary-font-color: #FBF0DF;
   .landing-box2,
   .landing-box3 {
     flex-direction: column;
-    justify-content: center; // Centrado horizontal en pantallas pequeñas 
-    align-items: center; // Centrado vertical
+    justify-content: center; 
+    align-items: center; 
     margin-left: auto;
 
     .divider-body {
@@ -270,7 +277,19 @@ $secondary-font-color: #FBF0DF;
   }
 
   .hello {
+    // font-size: 40px;
+    display: none;
+  }
+
+  .hello-mobil {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
     font-size: 40px;
+    text-align: center; 
+    margin-top: -5vh; 
+    color: $primary-font-color;
+    display: block;
   }
 
   .card-about,
@@ -285,8 +304,10 @@ $secondary-font-color: #FBF0DF;
     justify-content: center;
     align-items: center;
     margin: 20px auto;
-    width: auto; 
+    width: auto;
   }
+
+
 }
 
 @media (max-width: 480px) {
