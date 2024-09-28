@@ -218,6 +218,9 @@ $secondary-font-color: #FBF0DF;
     .divider, .divider-header {
       margin-top: -2vh;
     }
+    .date-display, .time-display {
+      display: none;
+    }
   }
 }
 
@@ -254,7 +257,8 @@ $secondary-font-color: #FBF0DF;
   .landing-box3 {
     flex-direction: column;
     justify-content: center; // Centrado horizontal en pantallas pequeñas 
-    align-items: center; // Centrado vertical 
+    align-items: center; // Centrado vertical
+    margin-left: auto;
 
     .divider-body {
       margin-top: -2vh;
