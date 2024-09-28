@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Box, Divider, Text } from '@chakra-ui/react'
-import { Link } from 'react-router-dom'
+import { Box, Divider, Image, Text } from '@chakra-ui/react'
 
 
 const Landing = () => {
@@ -19,6 +18,9 @@ const Landing = () => {
 
   return (
     <Box className='landing-continer'>
+      <Box className='landing-logo'>
+          <Image src='/Logo.png' alt='logo'/>
+      </Box>
         <Box className='landing-box1'>
           <a href='#AboutMe'>
             <Box className='card-about'>About <span className='space-between'>①</span></Box>

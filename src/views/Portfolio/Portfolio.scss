@@ -77,6 +77,10 @@ $secondary-font-color: #FBF0DF;
   // padding: 20px;
 }
 
+.landing-logo {
+  display: none;
+}
+
 // Contenedor interno en fila (flex row) centrado
 .landing-box1,
 .landing-box2,
@@ -274,6 +278,14 @@ $secondary-font-color: #FBF0DF;
   .card-contact {
     padding: 20px;
     font-size: 16px;
+  }
+
+  .landing-logo {
+    display: flex;
+    justify-content: center; // Centrar horizontalmente
+    align-items: center; // Centrar verticalmente
+    margin: 20px auto;
+    width: auto; 
   }
 }
 
