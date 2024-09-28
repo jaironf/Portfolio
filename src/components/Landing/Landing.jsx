@@ -19,7 +19,7 @@ const Landing = () => {
   return (
     <Box className='landing-continer'>
       <Box className='landing-logo'>
-          <Image src='/Logo.png' alt='logo' boxSize='300px' />
+          <Image src='/Logo.png' alt='logo' boxSize='260px' />
       </Box>
         <Box className='landing-box1'>
           <a href='#AboutMe'>
