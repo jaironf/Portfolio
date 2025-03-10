@@ -5,9 +5,9 @@ import './AboutMe-Pic.scss'
 const AboutMe = () => {
   const [isEnglish, setIsEnglish] = useState(true);
 
-  const textInEnglish = 'I am a graduate in Tourism who has transitioned into a career in tech by completing an intensive Fullstack Web Development bootcamp at EDEM, with over 480 hours of practice. My passion for creating websites inspired this change. After finishing the bootcamp with a real-world project where I collaborated with Data Science and UX/UI teams, I am now a junior developer eager to showcase my skills. I am currently seeking an opportunity to apply my knowledge and continue growing professionally in the tech industry.';
+  const textInEnglish = 'I am a Fullstack Developer specializing in the MERN stack, with a strong foundation in HTML, CSS, and JavaScript. I focus on developing innovative digital solutions that enhance user experience and optimize processes. My background in Tourism and Business Management provides me with a unique perspective to create applications tailored to client needs. I am proactive, adaptable, and committed to continuous learning to stay updated on the latest technological trends.';
 
-  const textInSpanish = 'Soy graduado en Turismo y he reconvertido mi carrera al completar un bootcamp intensivo de desarrollo web Fullstack en EDEM, con más de 480 horas de práctica. Mi pasión por la creación de sitios web impulsó este cambio. Tras finalizar el bootcamp con un proyecto real en el que colaboré con equipos de Ciencia de Datos y UX/UI, ahora soy un desarrollador junior entusiasmado por demostrar mis habilidades. Estoy buscando una oportunidad para aplicar mis conocimientos y seguir creciendo profesionalmente en la industria tecnológica.';
+  const textInSpanish = 'Soy un Desarrollador Fullstack especializado en el stack MERN, con una sólida base en HTML, CSS y JavaScript. Me enfoco en desarrollar soluciones digitales innovadoras que mejoran la experiencia del usuario y optimizan procesos. Mi formación en Turismo y Dirección de Empresas Turísticas me aporta una perspectiva única para crear aplicaciones adaptadas a las necesidades del cliente. Soy proactivo, adaptable y comprometido con el aprendizaje continuo para mantenerme actualizado en las últimas tendencias tecnológicas.';
 
   const toggleLanguage = () => {
     setIsEnglish(!isEnglish)
