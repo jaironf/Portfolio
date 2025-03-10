@@ -20,14 +20,14 @@ const Projects = () => {
         <Grid h='500px' w='500px' templateRows='repeat(1, 1fr)' templateColumns='repeat(6, 1fr)' gap={0}>
           <GridItem className='grid-item' rowSpan={2} colSpan={6} bg='#3E3C36' color='#FBF0DF' borderRadius='0 0 50px 0' display='flex' flexDirection='column' alignItems='center' p={4}>
             <Text  className='text-projects' fontSize='xxl'>
-              Oddliquor Website <span>01</span>
+              Movie App <span>01</span>
             </Text>
             <Box className='description-body' maxW='80%' mt='5vw'>
               <Text fontSize='15px' fontFamily='sans-serif'>
-                Esta es la primera página web que desarrollé en el bootcamp de Fullstack Development, utilizando solo HTML y CSS. El sitio, diseñado para el artista Oddliquor, cuenta con cuatro secciones: una página principal con una breve introducción, una biografía que destaca su carrera, una galería de imágenes, y una sección de contacto con un formulario. A través de este proyecto, aprendí y apliqué los fundamentos de estructura y diseño visual.
+              Esta aplicación de películas, desarrollada con React y Next.js, ofrece una carga eficiente de datos y una interfaz moderna gracias a NextUI. Usa TypeScript para mayor seguridad, Tailwind CSS para una personalización rápida y Fetch API para obtener datos de TheMovieDB. Su diseño responsive y su arquitectura optimizada garantizan una experiencia fluida en distintos dispositivos.
               </Text>
             </Box>
-            <a href='https://github.com/jaironf/Pagina-Web' target='_blank' rel='noopener'>
+            <a href='https://github.com/jaironf/Movie-App-Nextjs' target='_blank' rel='noopener'>
               <Button className='github-btn' bg='#E7A92D' variant='outline' mt='3vw' _hover={{ transform: 'scale(1.1)', opacity: 0.8, filter: 'drop-shadow(8px 8px 8px #E7A92D)', }}> GitHub</Button>
             </a>
           </GridItem>
